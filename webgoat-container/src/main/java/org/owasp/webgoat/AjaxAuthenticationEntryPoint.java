@@ -46,6 +46,7 @@ import java.io.IOException;
 public class AjaxAuthenticationEntryPoint extends LoginUrlAuthenticationEntryPoint {
     public AjaxAuthenticationEntryPoint(String loginFormUrl) {
         super(loginFormUrl);
+        
     }
 
     public void commence(HttpServletRequest request, HttpServletResponse response, AuthenticationException authException) throws IOException, ServletException {
